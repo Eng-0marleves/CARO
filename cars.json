@@ -1,0 +1,50 @@
+[
+    {
+        "manufacturer": "Lancer",
+        "model": "Mitsubishi",
+        "motor": "Straight or Inline Engine Layout",
+        "img": "images/card1.webp",
+        "color": "Red",
+        "price": "$5300"
+    },
+    {
+        "manufacturer": "Ferrari",
+        "model": "488 Pista",
+        "motor": "Flat Engine Layout",
+        "img": "images/card2.webp",
+        "color": "Blue",
+        "price": "$4700"
+    },
+    {
+        "manufacturer": "Toucan",
+        "model": "Hyundai Tucson",
+        "motor": "V-Engine Layout",
+        "img": "images/card3.webp",
+        "color": "Black",
+        "price": "$2570"
+    },
+    {
+        "manufacturer": "Mercedes",
+        "model": "Benz",
+        "img": "images/card4.webp",
+        "motor": "Twin Cylinder",
+        "color": "White",
+        "price": "$8930"
+    },
+    {
+        "manufacturer": "Toucan",
+        "model": "HYUNDAI ELANTRA",
+        "img": "images/card5.webp",
+        "motor": "Three Cylinder",
+        "color": "Black",
+        "price": "$1615"
+    },
+    {
+        "manufacturer": "Ferrari",
+        "model": "488 Pista Spider",
+        "img": "images/card6.webp",
+        "motor": "Eight Cylinders and Above",
+        "color": "Black",
+        "price": "$4450"
+    }
+]

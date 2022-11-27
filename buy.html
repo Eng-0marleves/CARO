@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARO -> Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <script defer src="buy.js"></script>
+</head>
+<body class="Buy">
+    <!-- Start Home -->
+    <section id="Buy">
+        <div class="description">
+            <h1>BUY NOW</h1>
+            <small>-> Fill Inputs With Correct Information</small>
+        </div>
+        <form action="process_form.php" method="post">
+            <input type="text" name="manufacturer" placeholder="Manufacturer" id="manufacturer" required>
+            <input type="text" name="model" placeholder="Model" id="model" required>
+            <input type="text" name="address" placeholder="Address" id="address" required>
+            <input type="email" name="email" placeholder="Email" id="email" required>
+            <input type="number" min="0" name="number" placeholder="Number" id="number" required>
+            <div>
+                <input type="submit" value="Submit" class="btn">
+            </div>
+        </form>
+    </section>
+    <!-- End Home -->
+</body>
+</html>

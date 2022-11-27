@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARO -> Cars</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <script defer src="cars.js"></script>
+</head>
+
+<body class="Cars">
+    <!-- Start Cars -->
+    <section id="Cars">
+        <div class="description">
+            <h1>OUR CARS</h1>
+            <small> -> Click on Image To Show Details</small>
+        </div>
+        <div class="cars">
+            <div class="container">
+                <ul class="switchers">
+                    <li class="switcher active" data-car=".all">All</li>
+                    <li class="switcher" data-car=".Lancer">Lancer</li>
+                    <li class="switcher" data-car=".Mercedes">Mercedes</li>
+                    <li class="switcher" data-car=".Ferrari">Ferrari</li>
+                    <li class="switcher" data-car=".Toucan">Toucan</li>
+                </ul>
+                <div class="cards">
+                    
+                    <div class="card all Lancer" data-model="Mitsubishi">
+                        <img class="img-fluid" src="images/card1.webp" alt="">
+                    </div>
+                    
+                    <div class="card all Ferrari" data-model="488 Pista">
+                        <img class="img-fluid" src="images/card2.webp" alt="">
+                    </div>
+                    
+                    <div class="card all modern Toucan" data-model="Hyundai Tucson">
+                        <img class="img-fluid" src="images/card3.webp" alt="">
+                    </div>
+                    
+                    <div class="card all Mercedes" data-model="Benz">
+                        <img class="img-fluid" src="images/card4.webp" alt="">
+                    </div>
+                    
+                    <div class="card all Toucan" data-model="HYUNDAI ELANTRA">
+                        <img class="img-fluid" src="images/card5.webp" alt="">
+                    </div>
+                    
+                    <div class="card all Ferrari" data-model="488 Pista Spider">
+                        <img class="img-fluid" src="images/card6.webp" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        
+    </section>
+    <!-- End Cars -->
+
+    <div class="detailes">
+        <div class="container">   
+            <div class="view">
+                <img src="images/card1.webp" alt="">
+            </div>
+            <div class="description">
+                <div class="info"><span>Model: </span>Toyota</div>
+                <div class="info"><span>Model: </span>Toyota</div>
+                <div class="info"><span>Motor: </span>Toyota</div>
+                <div class="info"><span>Color: </span>Toyota</div>
+                <div class="buying">
+                    <h1 class="price">$2000</h1>
+                    <a href="buy.html" class="btn buyBtn">Buy Now</a>
+                </div>
+            </div>  
+
+            <div class="detailes-btn" onclick="closeDetailes()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
